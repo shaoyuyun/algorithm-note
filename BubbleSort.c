@@ -20,7 +20,7 @@ void bubbleSort(int arr[], int num){
 }
 
 int main(){
-    printf("ÇëÊäÈëÒªÅÅĞòµÄÊı×é¶ÓÁĞ£¨ÓÃ¿Õ¸ñ·Ö¸ôÊı×éÔªËØ£©£º\n");
+    printf("è¯·è¾“å…¥è¦æ’åºçš„æ•°ç»„é˜Ÿåˆ—ï¼ˆç”¨ç©ºæ ¼åˆ†éš”æ•°ç»„å…ƒç´ ï¼‰ï¼š\n");
     int i = 0, num = 0;
     int *arr = (int*)malloc(num*sizeof(int));
     char s;
@@ -29,11 +29,13 @@ int main(){
         scanf("%d", &arr[i++]);
     }while((s = getchar() != '\n'));
     bubbleSort(arr, num);
-    printf("Ã°ÅİÅÅĞòºóµÄÊı×é£º\n");
+    printf("å†’æ³¡æ’åºåçš„æ•°ç»„ï¼š\n");
     for(i = 0; i < num; i++){
         printf("%d ", arr[i]);
     }
-    printf("\n±È½ÏµÄ´ÎÊıÎª£º%d\n½»»»µÄ´ÎÊıÎª£º%d\n", compareNum, swapNum);
+    printf("\næ¯”è¾ƒçš„æ¬¡æ•°ä¸ºï¼š%d\näº¤æ¢çš„æ¬¡æ•°ä¸ºï¼š%d\n", compareNum, swapNum);
+    free(arr);
+    arr = NULL;
     system("pause");
     return 0;
 }
