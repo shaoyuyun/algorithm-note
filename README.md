@@ -11,5 +11,5 @@ This repository is used to record the note of learning algorithm.
 [点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/InsertSort.c)
 
 ## 二分查找
-[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/BinarySort.c)
+[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/BinarySearch.c)
 
