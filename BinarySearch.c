@@ -6,11 +6,11 @@ static int insertNum = 0;
 
 void binarySearch(int arr[], int num, int key){
     int low = 1;
-    int high = num;//Êý×éµÄ×î´óÏÂ±ên-1
+    int high = num;//æ•°ç»„çš„æœ€å¤§ä¸‹æ ‡n-1
     int mid ;
     while(low <= high)
     {
-        mid = (low + high) / 2 ;//ÏÂ±êµÄÒ»°ë£¬intÀàÐÍ³ý·¨È¡Õû¡£
+        mid = (low + high) / 2 ;//ä¸‹æ ‡çš„ä¸€åŠï¼Œintç±»åž‹é™¤æ³•å–æ•´ã€‚
         if(key < arr[mid])
         {
             high = mid + 1;
@@ -18,7 +18,7 @@ void binarySearch(int arr[], int num, int key){
         }
         if(key == arr[mid] )
         {
-            printf("ÒÑÕÒµ½Êý×Ö%d¡£", key);
+            printf("å·²æ‰¾åˆ°æ•°å­—%dã€‚", key);
             break;
         }
         else
@@ -31,7 +31,7 @@ void binarySearch(int arr[], int num, int key){
 
 int main()
 {
-    printf("ÇëÊäÈëÒª²éÕÒµÄÊý×é¶ÓÁÐ£¨ÓÃ¿Õ¸ñ·Ö¸ôÊý×éÔªËØ£©£º\n");
+    printf("è¯·è¾“å…¥è¦æŸ¥æ‰¾çš„æ•°ç»„é˜Ÿåˆ—ï¼ˆç”¨ç©ºæ ¼åˆ†éš”æ•°ç»„å…ƒç´ ï¼‰ï¼š\n");
     int i = 0, num = 0, key = 0;
     int *arr = (int*)malloc(num*sizeof(int));
     char s;
@@ -39,10 +39,12 @@ int main()
         arr = (int*)realloc(arr, ++num*sizeof(int));
         scanf("%d", &arr[i++]);
     }while((s = getchar() != '\n'));
-    printf("ÇëÊäÈëÒª²éÕÒµÄÊý×Ö£º\n");
+    printf("è¯·è¾“å…¥è¦æŸ¥æ‰¾çš„æ•°å­—ï¼š\n");
     scanf("%d", &key);
     binarySearch(arr, num, key);
-    printf("\n²éÕÒµÄ´ÎÊýÎª£º%d\n", compareNum);
+    printf("\næŸ¥æ‰¾çš„æ¬¡æ•°ä¸ºï¼š%d\n", compareNum);
+    free(arr);
+    arr = NULL;
     system("pause");
     return 0;
 }
