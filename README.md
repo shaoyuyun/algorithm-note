@@ -13,3 +13,5 @@ This repository is used to record the note of learning algorithm.
 ## 二分查找
 [点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/BinarySearch.c)
 
+## 二叉树带权路劲长度和
+[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/BinaryTreeWPL.c)
