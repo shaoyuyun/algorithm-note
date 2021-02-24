@@ -22,7 +22,7 @@ This repository is used to record the note of learning algorithm.
 [点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/stackAndQueue.md)
 
 ### 字符串
-[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/C/BubbleSort.c)
+[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/string.md)
 
 ## C语言实现的一些算法
 
