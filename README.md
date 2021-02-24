@@ -37,3 +37,7 @@ This repository is used to record the note of learning algorithm.
 
 ### 二叉树带权路径长度和
 [点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/C/BinaryTreeWPL.c)
+
+### 来源
+
+JavaScript 描述数据结构和算法来自[这里](http://www.conardli.top/docs/dataStructure/)
