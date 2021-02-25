@@ -28,52 +28,52 @@ This repository is used to record the note of learning algorithm.
 ## JavaScript 常见手撕代码
 
 ### 手动实现 call、apply、bind
-[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/Javascript/callApplyBind.md)
+[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/JavaScript/callApplyBind.md)
 
 ### EventEmitter
-[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/Javascript/eventEmitter.md)
+[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/JavaScript/eventEmitter.md)
 
 ### 防抖
-[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/Javascript/debounce.md)
+[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/JavaScript/debounce.md)
 
 ### 节流
-[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/Javascript/throttle.md)
+[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/JavaScript/throttle.md)
 
 ### 浅拷贝与深拷贝
-[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/Javascript/copy.md)
+[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/JavaScript/copy.md)
 
 ### 数组去重、扁平、最值
-[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/Javascript/array.md)
+[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/JavaScript/array.md)
 
 ### 数组乱序 - 洗牌算法
-[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/Javascript/shuffle.md)
+[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/JavaScript/shuffle.md)
 
 ### 函数柯里化
-[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/Javascript/curry.md)
+[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/JavaScript/curry.md)
 
 ### 手动实现 JSONP
-[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/Javascript/jsonp.md)
+[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/JavaScript/jsonp.md)
 
 ### 模拟实现 Promise
-[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/Javascript/promise.md)
+[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/JavaScript/promise.md)
 
 ### 手动实现 ES5 继承
-[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/Javascript/es5Inherit.md)
+[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/JavaScript/es5Inherit.md)
 
 ### 手动实现 instanceof
-[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/Javascript/instanceof.md)
+[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/JavaScript/instanceof.md)
 
 ### 基于 Promise 的 Ajax 封装
-[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/Javascript/promiseAjax.md)
+[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/JavaScript/promiseAjax.md)
 
 ### 单例模式
-[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/Javascript/singletonMode.md)
+[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/JavaScript/singletonMode.md)
 
 ### 异步循环打印
-[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/Javascript/asyncLoopPrint.md)
+[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/JavaScript/asyncLoopPrint.md)
 
 ### 图片懒加载
-[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/Javascript/lazyLoad.md)
+[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/JavaScript/lazyLoad.md)
 
 
 ## C语言实现的一些算法
