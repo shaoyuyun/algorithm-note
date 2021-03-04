@@ -76,6 +76,11 @@ This repository is used to record the note of learning algorithm.
 [点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/JavaScript/lazyLoad.md)
 
 
+## 常见面试题
+
+[点击查看](https://github.com/shaoyuyun/algorithm-note/blob/master/Question/README.md)
+
+
 ## C语言实现的一些算法
 
 ### 快速排序

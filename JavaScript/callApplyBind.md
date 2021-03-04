@@ -66,6 +66,17 @@ Function.prototype.myBind = function(context, ...args1) {
 }
 ```
 
+### 简单实现一个 bind
+
+```js
+Function.prototype.myBind = function(fn) {
+    let that = this
+    return function() {
+        return that.apply(fn, arguments)
+    }
+}
+```
+
 ## 扩展
 
 获取函数中的参数：
@@ -96,4 +107,18 @@ test1(1, 2, 3)
 test2(1, 2, 3)
 test3(1, 2, 3)
 test4(1, 2, 3)
+```
+
+### 实现 add(1)(2)(3)
+
+```js
+function add(...args) {
+    let adder = function(...args1) {
+        args = [...args, ...args1]
+        return adder
+    }
+    adder.toString = () => args.reduce((a, b) => a + b)
+    return adder
+}
+add(1)(2)(3) // 6
 ```
